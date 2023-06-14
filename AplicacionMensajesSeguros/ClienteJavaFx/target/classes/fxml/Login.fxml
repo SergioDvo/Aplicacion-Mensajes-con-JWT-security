@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import io.github.palexdev.materialfx.controls.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: #99ccff" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ui.pantallas.login.LoginController">
+    <children>
+        <MFXTextField fx:id="txtUserName" floatMode="BORDER" layoutX="331.0" layoutY="211.0" prefHeight="50.0" prefWidth="119.0" promptText="Username" style="-fx-alignment: center;">
+            <font>
+                <Font size="24.0" />
+            </font></MFXTextField>
+        <MFXButton fx:id="btLogin" buttonType="RAISED" layoutX="226.0" layoutY="440.0" mnemonicParsing="false" onAction="#doLogin" prefHeight="42.0" prefWidth="152.0" text="Login">
+            <font>
+                <Font size="24.0" />
+            </font></MFXButton>
+        <MFXTextField fx:id="txtPassword" floatMode="BORDER" layoutX="331.0" layoutY="313.0" prefHeight="50.0" prefWidth="119.0" promptText="Password" style="-fx-alignment: center;">
+            <font>
+                <Font size="24.0" />
+            </font></MFXTextField>
+        <Label layoutX="198.0" layoutY="116.0" prefHeight="71.0" prefWidth="392.0" style="-fx-alignment: center;" text="NEWSPAPERS">
+            <font>
+                <Font size="36.0" />
+            </font></Label>
+      <Label layoutX="350.0" layoutY="433.0" prefHeight="65.0" prefWidth="296.0" style="-fx-alignment: center;" text="Admin: root root">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="350.0" layoutY="479.0" prefHeight="65.0" prefWidth="296.0" style="-fx-alignment: center;" text="User: sergio sergio">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <MFXButton fx:id="btLogin1" buttonType="RAISED" layoutX="226.0" layoutY="512.0" mnemonicParsing="false" onAction="#doRegister" prefHeight="42.0" prefWidth="152.0" text="Registrar">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </MFXButton>
+      <MFXButton buttonType="RAISED" layoutX="560.0" layoutY="45.0" mnemonicParsing="false" onAction="#getClavePublica" prefHeight="44.0" prefWidth="186.0" text="Get Clave Publica">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </MFXButton>
+    </children>
+</AnchorPane>

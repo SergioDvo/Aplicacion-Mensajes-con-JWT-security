@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import io.github.palexdev.materialfx.controls.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="800.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ui.pantallas.newspaper.NewspaperListController">
+
+    <TableView fx:id="tablaNewspaper" layoutX="35.0" layoutY="80.0" prefHeight="517.0" prefWidth="644.0">
+        <columns>
+            <TableColumn fx:id="id" prefWidth="119.0" text="Id" />
+            <TableColumn fx:id="nameNewspaper" prefWidth="361.0" text="Newspaper" />
+            <TableColumn fx:id="dateNewspaper" prefWidth="163.0" text="Date" />
+        </columns>
+    </TableView>
+    <Label layoutX="277.0" layoutY="24.0" prefHeight="64.0" prefWidth="141.0" text="NEWSPAPERS">
+        <font>
+            <Font name="SansSerif Bold Italic" size="18.0" />
+        </font>
+    </Label>
+   <MFXButton buttonType="RAISED" layoutX="794.0" layoutY="290.0" onAction="#deleteNewspaper" mnemonicParsing="false" prefHeight="98.0" prefWidth="162.0" text="Delete" />
+   <MFXButton buttonType="RAISED" layoutX="537.0" layoutY="648.0" onAction="#addNewspaper" mnemonicParsing="false" prefHeight="44.0" prefWidth="109.0" text="Add" />
+   <MFXButton buttonType="RAISED" layoutX="706.0" layoutY="648.0" onAction="#updateNewspaper" mnemonicParsing="false" prefHeight="44.0" prefWidth="109.0" text="Update" />
+   <TextField fx:id="nameTxt" layoutX="152.0" layoutY="657.0" prefHeight="25.0" prefWidth="125.0" promptText="Name">
+      <font>
+         <Font name="System Bold" size="12.0" />
+      </font>
+   </TextField>
+   <MFXDatePicker fx:id="datePicker" layoutX="304.0" layoutY="651.0" prefHeight="38.0" prefWidth="174.0" />
+</AnchorPane>

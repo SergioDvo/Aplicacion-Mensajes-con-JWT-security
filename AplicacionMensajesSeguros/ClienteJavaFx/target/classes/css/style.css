@@ -1,0 +1,33 @@
+.root {
+    -fx-background-color: #ebebeb;
+    -fx-background-radius: 10;
+    -fx-border-color: #ff6666;
+    -fx-border-radius: 10;
+    -fx-font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+.menu-bar {
+    -fx-background-radius: 10 10 0 0;
+    -fx-border-radius: 10 10 0 0;
+    -fx-padding: 10;
+
+}
+
+.HBox {
+    -fx-background-color: #ff6666;
+}
+
+.menu {
+    -fx-padding: 10;
+    -fx-background-radius: 10;
+    -fx-background-color: #ff6666;
+}
+
+.menu:hover {
+    -fx-background-color: #ff6666;
+
+}
+
+.MenuItem {
+    -fx-border-radius: 10;
+}

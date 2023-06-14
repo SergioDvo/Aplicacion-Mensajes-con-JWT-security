@@ -1,0 +1,7 @@
+port: mail.smtp.port
+portNumber: 587
+mailSmtpAuth: mail.smtp.auth
+sslTrust: mail.smtp.ssl.trust
+smtpGmailCom: smtp.gmail.com
+starttlsEnable: mail.smtp.starttls.enable
+

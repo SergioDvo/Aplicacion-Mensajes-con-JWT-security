@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="800.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ui.pantallas.inicio.InicioController">
+    <children>
+        <Label layoutX="344.0" layoutY="297.0" prefHeight="220.0" prefWidth="489.0" text="NEWSPAPERS">
+            <font>
+                <Font name="SansSerif Bold Italic" size="64.0" />
+            </font>
+        </Label>
+    </children>
+</AnchorPane>

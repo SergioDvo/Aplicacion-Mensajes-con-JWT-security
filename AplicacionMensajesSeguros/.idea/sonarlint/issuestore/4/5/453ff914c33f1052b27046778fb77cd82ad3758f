@@ -1,0 +1,17 @@
+
+`	java:S1126"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ
+`	java:S112?"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ
+`	java:S112S"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ
+`	java:S112r"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ
+j
+java:S2095"NUse try-with-resources or close this "FileOutputStream" in a "finally" clause.(»¯Ñÿÿÿÿÿ
+c	java:S100+"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(†ò™Ë
+\
+java:S1854P"ARemove this useless assignment to local variable "stringFirmado".(ÂÙ’Àıÿÿÿÿ
+M
+java:S1481I"2Remove this unused "stringFirmado" local variable.(†ÉÉœıÿÿÿÿ
+>
+java:S5542k"#Use secure mode and padding scheme.(—×«øÿÿÿÿ
+Q
+java:S1172u"6Remove this unused method parameter "publicKeyServer".(ë‹Ïùÿÿÿÿ
+i	java:S100£"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‡¢¬¥ıÿÿÿÿ

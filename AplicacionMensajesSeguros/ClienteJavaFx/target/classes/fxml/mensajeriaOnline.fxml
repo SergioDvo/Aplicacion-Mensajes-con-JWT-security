@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import io.github.palexdev.materialfx.controls.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="800.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ui.pantallas.mensajeriaOnline.MensajeriaOnlineController">
+   <children>
+      <TableView fx:id="tablaMensajes" layoutX="51.0" layoutY="54.0" prefHeight="312.0" prefWidth="485.0">
+        <columns>
+          <TableColumn fx:id="mensaje" prefWidth="484.0" text="Mensaje" />
+        </columns>
+      </TableView>
+      <TextArea fx:id="txtMensaje" layoutX="60.0" layoutY="382.0" prefHeight="108.0" prefWidth="249.0" promptText="Mensaje" />
+      <MFXTextField fx:id="txtContrasena" layoutX="737.0" layoutY="216.0" prefHeight="49.0" prefWidth="172.0" promptText="Contraseña" />
+      <MFXTextField fx:id="txtNombreCarpeta" layoutX="737.0" layoutY="132.0" prefHeight="49.0" prefWidth="172.0" promptText="Carpeta" />
+       <Label layoutX="560.0" layoutY="90.0" prefHeight="40.0" prefWidth="600.0" text="User: sergio , contraseña de 'carpeta de mates' es 69 La carpeta esta es solo lectura" />
+       <Label layoutX="560.0" layoutY="60.0" prefHeight="40.0" prefWidth="400.0" text="User: root , contraseña de 'secretos top' es 1234" />
+      <MFXTextField fx:id="txtUsuario" layoutX="737.0" layoutY="297.0" prefHeight="49.0" prefWidth="172.0" promptText="Usuario" />
+      <MFXButton buttonType="RAISED" layoutX="382.0" layoutY="407.0" mnemonicParsing="false" onAction="#updateMensaje" prefHeight="58.0" prefWidth="116.0" text="Update mensaje" />
+      <MFXButton buttonType="RAISED" layoutX="765.0" layoutY="400.0" mnemonicParsing="false" onAction="#getMensajesDeCarpeta" prefHeight="58.0" prefWidth="116.0" text="Get Mensajes" />
+   </children>
+</AnchorPane>

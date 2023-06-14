@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import io.github.palexdev.materialfx.controls.MFXButton?>
+<?import io.github.palexdev.materialfx.controls.MFXTextField?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+<?import io.github.palexdev.materialfx.font.MFXFontIcon?>
+<BorderPane fx:id="root" prefHeight="800.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/16"
+            xmlns:fx="http://javafx.com/fxml/1" fx:controller="ui.pantallas.principal.PrincipalController">
+    <top>
+        <HBox fx:id="menuPrincipal" alignment="CENTER_RIGHT" layoutY="6.0" prefHeight="50.0" prefWidth="1281.0"
+              spacing="10.0" styleClass="windowBar" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0"
+              AnchorPane.topAnchor="0.0">
+            <padding>
+                <Insets right="10.0"/>
+            </padding>
+            <MenuBar>
+                <HBox.margin>
+                    <Insets right="1200.0"/>
+                </HBox.margin>
+                <menus>
+                    <Menu fx:id="opciones" mnemonicParsing="false" text="Opciones">
+                        <items>
+                            <MenuItem fx:id="mensajeria" mnemonicParsing="false" styleClass="" onAction="#menuClick"
+                                      text="Mensajeria"/>
+                            <MenuItem fx:id="mensajeriaOnline" mnemonicParsing="false" styleClass="" onAction="#menuClick"
+                                      text="Mensajeria Online"/>
+                            <MenuItem fx:id="añadirUsuario" mnemonicParsing="false" styleClass="" onAction="#menuClick"
+                                      text="Añadir un usuario"/>
+                            <MenuItem fx:id="logout" mnemonicParsing="false" styleClass="" onAction="#menuClick"
+                                      text="Logout"/>
+                        </items>
+                    </Menu>
+                </menus>
+            </MenuBar>
+            <MFXFontIcon fx:id="cerrar" description="mfx-x-alt" onMouseClicked="#exit" size="20.0"
+                         styleClass="close-icon"/>
+        </HBox>
+    </top>
+</BorderPane>
